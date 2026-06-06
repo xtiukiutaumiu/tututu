@@ -1,24 +1,27 @@
 
 body {
     font-family: sans-serif;
+    background-color: rgb(229, 255, 213);
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
+    font-family: cursive;
+    color: rgb(0, 110, 9);
 }
 
 nav {
-    border-top: 3px solid royalblue;
+    border-top: 5px dotted rgba(29, 224, 55, 0.849);
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid royalblue;
+    border-bottom:5px dotted rgba(29, 224, 55, 0.849);
 }
 
 nav a {
     text-decoration: none;
     font-size: 20px;
-    color: navy;
+    color: rgb(0, 110, 9);
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -48,14 +51,15 @@ h2 {
     flex-wrap: wrap;
     width: 700px;
     margin: 0 auto;
-    background-color: lightblue;
+    background-image:linear-gradient(to top,green,rgb(147, 221, 147));
+    border: 7px solid rgb(233, 255, 32);
 }
 
 .product {
     width: 150px;
     text-align: center;
     padding: 10px;
-    border: 5px double orange;
+    border: 8px double rgb(133, 204, 74);
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: bisque;
@@ -77,8 +81,8 @@ h2 {
 
 .principles {
     display: flex;
-    border-top: 5px solid navy;
-    border-bottom: 5px solid navy;
+    border-top: 7px dotted rgba(29, 224, 55, 0.849);
+    border-bottom: 7px dotted rgba(29, 224, 55, 0.849);
     justify-content: space-between; 
     width: 700px;
     margin: 0 auto;
@@ -115,14 +119,15 @@ h2 {
 }
 
 .slogan_img {
-    padding: 10px;
+    padding: 20px;
     border: 5px solid orange;
-    border-radius: 50%;
+    border-radius: 60%;
+    background-color: white;
 }
 
 .slogan_text {
     float:left;
-    color: mediumblue;
+    color: rgb(0, 102, 0);
     margin: 20px;
     width: 300px;
 }
@@ -130,17 +135,17 @@ h2 {
 .slogan_text::after {
     content: url("");
     display: block;
-    width: 45px;
-    height: 10px;
+    width: 50px;
+    height: 20px;
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-image: linear-gradient(to left,rgb(0, 255, 34),green);
     color: white;
     padding: 10px;
     font-size: 20px;
 }
 .product:hover{
-    box-shadow: 0 10px 15px 0 orange;
+    box-shadow: 0 10px 15px 0 rgb(49, 236, 58);
     top:10
 }
